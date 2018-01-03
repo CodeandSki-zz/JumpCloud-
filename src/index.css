@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  text-align: center;
+  background-image: url('http://7wallpapers.net/wp-content/uploads/1_Will-Ferrell.jpg'); 
+
+
+}
+
+.master-list {
+	list-style-type: none;
+}
+
+.container {
+  	position: relative;
+  	top: 50%;
+  	transform: translateY(100%);
+  	border: 3px solid white;
+  	border-radius: 7px;
+	width: 50%;
+	color: white;
+	background-color: rgba(0,0,0,.5);
+	font-size: 30px;
+
+
+}
+
+span {
+	color: red;
+}
+
+
+#root > div > span:nth-child(5) > a {
+
+color : yellow;
+}
+
+#root > div > span:nth-child(3) > a {
+	color : yellow;
+}
+
+#root > div > span:nth-child(4) > a {
+	color: yellow;
+}
+
+
+
+
