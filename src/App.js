@@ -79,6 +79,7 @@ class App extends Component {
     return (
       <div className="container">
         <h2>Todo List</h2>
+        <h5><i>Click on items to mark as done</i></h5>
         <TodoList className="listItems" list={this.state.todoList} filter={this.state.filter} onItemClick={this.handleItemClick} />
         Show items: {
           ['all', 'active', 'done'].map((item) =>
